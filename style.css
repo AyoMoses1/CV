@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{  
+    font-family: 'Roboto ', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c4c4c4;
+}
+
+div.resume_wrapper{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    padding: 10px;
+    background: #fff;
+}
+div.resume_wrapper div.resume_left{
+    width: 30%;
+    background: #26252d;
+}
+div.resume_wrapper div.resume_right{
+    width: 65%;
+    padding: 20px 40px;
+}
+
+div.resume_image{
+    width: 100%;
+}
+
+div.resume_image img{
+    width: 100%;
+    display: block;
+}
+
+div.resume_left div.resume_content{
+    padding: 20px 30px;
+}
+div.resume_item{
+    padding: 20px 0;
+    border-bottom: 1px solid #0175b2;
+}
+div.resume_item:last-child{
+    border-bottom: 0px;
+}
+div.resume_left div.resume_content div.resume_item div.content_title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+} 
+div.content_info{
+    color: #84838b;
+}
+div.resume_left div.name_role{
+    display: none;
+}
+div.resume_left div.name_role .name{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+div.resume_left div.name_role .role{
+    color: #84838b;
+}
+
+div.content_contact .phone,.email {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+div.content_skills div.content_info div.skills_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.skills_bar p{
+    position: relative;
+    width: 125px;
+    height: 20px;
+    background: #fff;
+}
+div.skills_bar p span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #0175b2;
+    height: 100%;
+}
+
+
+
+div.resume_wrapper div.resume_right div.name_role .name{
+    font-size: 32px;
+    color: #26252d;
+    text-transform: uppercase;
+}
+div.resume_wrapper div.resume_right div.name_role .role{
+    font-size: 13px;
+    color: #26252d;
+    text-transform: uppercase;
+}
+div.resume_wrapper div.resume_right div.resume_item div.content_title{
+    margin-bottom: 20px;
+    color: #26252d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div.resume_wrapper div.resume_right  div.content_info{
+    display: flex;
+}
+
+div.date{
+    padding-right: 35px;
+    width: 115px;
+    position: relative;
+}
+div.resume_info{
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% - 115px);
+}
+
+div.date::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 0;
+    top: 5px;
+    border: 1px solid #2625ed;
+    border-radius: 50%;
+    background: #fff;
+}
+div.date::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 90%;
+    right: 4px;
+    top: 18px;
+    background: #0175b2;
+}
+
+div.interest_list div.content_info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+div.interests{
+    padding-right: 10px;
+}
+
+

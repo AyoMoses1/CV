@@ -159,5 +159,138 @@ div.interest_list div.content_info{
 div.interests{
     padding-right: 10px;
 }
+div.logos{
+    background: #fff;
+}
+div.logos h3{
+    text-align: center;
+}
+img.logo1{
+    width: 100%;
+}
+div.zuri {
+    text-align: center;
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width:1200px){
+    div.resume_wrapper div.resume_left{
+        width: 50%;
+    }
+}
+@media screen and (max-width:976px){
+    div.resume_wrapper div.resume_right{
+        padding: 10px;
+    }
+    div.resume_title{
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    div.resume_content{
+        font-style: italic;
+    }
+    div.resume_wrapper div.resume_right div.resume_item div.content_title{
+        text-align: center;
+    }
+    div.resume_wrapper div.resume_right  div.content_info{
+        flex-wrap: wrap;
+    }
+    div.interests{
+        width: 100%;
+        margin: 10px 0;
+    }
+    div.date{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    div.resume_info{
+        width: 100%;
+    }
+    div.date::before,div.date::after{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    div.resume_wrapper{
+        flex-wrap: wrap;
+    }
+    div.resume_wrapper div.resume_left,div.resume_wrapper div.resume_right{
+        width: 90%;
+        margin: 0 auto;
+    }
+    div.resume_wrapper div.resume_right div.name_role .name{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    div.resume_wrapper div.resume_right div.name_role .role{
+        text-align: center;
+    }
+    div.date::before,div.date::after{
+        display: block;
+    }
+    div.date{
+        width: 20%;
+    }
+    div.resume_info{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    div.date{
+        width: 40%;
+    }
+    div.resume_info{
+        width: 60%;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:500px){
+    div.resume_wrapper{
+        flex-wrap: wrap;
+    }
+    div.resume_wrapper div.resume_left{
+        width: 100%;
+    }
+    div.resume_wrapper div.resume_right{
+        width: 100%;
+        padding: 10px ;
+    }
+    div.resume_wrapper div.resume_right div.name_role .name{
+        font-size: 18px;
+        font-weight: 550;
+    }
+    div.resume_wrapper div.resume_right div.name_role .role{
+        font-size: 10px ;
+    }
+    div.resume_wrapper div.resume_right  div.content_info{
+        flex-wrap: wrap;
+    }
+    div.resume_wrapper div.resume_right div.resume_item div.content_title{
+        text-align: center;
+    }
+    div.interests{
+        width: 100%;
+        margin: 10px 0;
+    }
+    div.date::before,div.date::after{
+        display: none;
+    }
+    div.date{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    div.resume_info{
+        width: 100%;
+    }
+}
 
 
